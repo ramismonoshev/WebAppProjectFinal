@@ -1,0 +1,99 @@
+body{
+  margin:0;
+  font-family: "Josefin Sans", sans-serif;
+  background-color: #ababab;
+  overflow-x:hidden;
+}
+
+.main-header{
+  height:100vh;
+  display:flex;
+  align-items:center;
+}
+
+
+.container{
+  max-width:960px;
+  padding-left:1rem;
+  padding-right:1rem;
+  margin:auto;
+  text-align:center;
+}
+
+.v-wrapper{
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100vh;
+  overflow:hidden;
+}
+
+.v-wrapper video{
+  min-height:100%;
+  min-width:100%;
+}
+
+.h-overlay{
+  height:100vh;
+  position: absolute;
+  top:0;
+  left:0;
+  width:100vw;
+  z-index:1;
+  background: #6f909f;
+  opacity:0.85;
+}
+.logo img{
+  width: 150px;
+  float: left;
+  padding-left: 5%;
+  padding-top: 2%;
+}
+.h-content{
+  z-index:2;
+  margin: auto;
+}
+
+.h-content h1{
+  font-size: 42px;
+  line-height: 44px;
+  font-weight: 500px;
+  margin-bottom:0;
+}
+
+.h-content p{
+  display:block;
+  padding-bottom:1rem;
+  margin-top:5px;
+}
+
+a.btn{
+  padding: 10px 48px;
+  border: solid 2px #fce4ec;
+  text-decoration: none;
+  color: #fce4ec;
+}
+a.btn:hover{
+  padding: 10px 48px;
+  border: solid 2px #fce4ec;
+  background-color:#fce4ec;
+  text-decoration: none;
+  font-weight: bold;
+  color: #321212;
+}
+
+@media(max-width:960px){
+  .container{
+    padding-right:3rem;
+    padding-left:3rem;
+  }
+}
+.bg2-img{
+  background-image: url("https://static.onecms.io/wp-content/uploads/sites/9/2022/02/15/guide-to-homemade-pizza-FT-MAG0322.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 100vh;
+
+}

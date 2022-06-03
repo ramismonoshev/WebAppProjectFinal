@@ -1,0 +1,126 @@
+.home{
+  margin-left: 130mm;
+  color: gray;
+}
+
+.text{
+  margin-left: 150mm;
+}
+
+.third{
+  margin-bottom: 0mm;
+  margin-left: 10mm;
+
+
+}
+
+.a{
+  color: chocolate;
+  margin-left: 30mm;
+  display: inline;
+}
+
+.card-title{
+  color: brown;
+}
+
+
+ .card{
+   width: 50mm;
+ }
+
+
+
+.nav-bar {
+  overflow: hidden;
+  background-color: #333;
+  margin-left: 140px;
+
+}
+
+.nav-bar a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  /*width: 100%;*/
+  padding: 14px 80px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.nav-bar a:hover {
+  background-color: #696969;
+  color: white;
+}
+.container-fluid{
+  background-color: #333 !important;
+}
+.bg-img {
+  background-color: black !important;
+}
+
+.conditions{
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.grid__columns{
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.font_awesome_icon {
+  color: black;
+}
+
+.facebook:hover {
+  color: blue;
+}
+
+.instagram:hover{
+  color: #9f477c;
+}
+
+.twitter:hover{
+   color: #6f909f;
+ }
+
+.pinterest:hover{
+  color: #9f801f;
+}
+
+.google_plus:hover{
+  color: #7e9f33;
+}
+
+.linkedin:hover{
+  color: #6e9f61;
+}
+
+footer {
+  background-color: white;
+  margin-top: -20px;
+}
+
+a{
+  text-decoration: none;
+}
+
+.container {
+  /*margin-left: -50px;*/
+}
+
+iframe{
+  width: 100%;
+  allowfullscreen: true;
+  frameborder: 0;
+  height: 600px;
+}
+
+.sushi{
+  margin-left: 120mm;
+}
+
+h4{
+  color: white;
+}

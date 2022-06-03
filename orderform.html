@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <script src="https://kit.fontawesome.com/f372baa151.js" crossorigin="anonymous"></script>
+
+  <link rel="icon" href="https://habrastorage.org/getpro/habr/post_images/c1a/e7e/e3d/c1ae7ee3d053f0809e9d22c320924a18.jpg">
+
+
+  <link href="orderform.css" rel="stylesheet">
+  <link rel="stylesheet" href="orderform.js  ">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.9/validator.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" />
+
+  <title> MyPizza </title>
+</head>
+
+<body>
+<div class="bg-img">
+  <div class="container-fluid">
+    <div class="nav-bar">
+      <a href = "shipping.html" > Shipping </a>
+      <a href = "menu.html" > Menu </a>
+      <a href = "checkout.html" >Drinks</a>
+      <a href = "orderform.html" > Order Form </a>
+    </div>
+  </div>
+</div>
+
+<div class = "bg-img">
+<div class="contactUs">
+  <div class="row">
+    <div class="col-6 col-sm-2 ml-4 ">
+      <div class = "me">
+        <h2 class="txt4" style="font-size: 40px;" > Order from us </h2>
+        <div>
+        <p class="txt4" >if you want a tasty and satisfying meal, then you must visit us </p>
+        </div>
+
+        <div>
+        <p class="txt4" >Kyrgyzstan, Bishkek</p>
+        </div>
+
+        <div>
+        <p class="txt4" > mypizza@gmail.com </p>
+        </div>
+
+        <div>
+        <p class="txt4"> +996706001453 </p>
+        </div>
+
+      <div class ="icons">
+        <a href="https://www.instagram.com/ramismonoshev/" style="color: #fff"> <i class="fab fa-instagram"></i> </a>
+        <a href="#  " style="color: #fff"> <i class="fab fa-facebook-square"></i></a>
+        <a href="#" style="color: #fff"><i class="fab fa-twitter-square"></i></a>
+      </div>
+      </div>
+    </div>
+    <div class = "im">
+      <div  class="col-6 mt-5 col-sm-10 mx-auto "  >
+
+        <form enctype="text/plain" action="mailto:murok.maratbekkyzy@iaau.edu.kg" method="post" >
+          <div class="form-group row ">
+            <label for="inputFirstName" class=" col-3 form-control-label mt-3 text-white "> <b>First name </b> </label>
+            <div class="col-8 mt-3 ">
+              <input type="text" name="Name" class="form-control" id="inputFirstName" pattern="[A-Za-z]{3,32}" required>
+              <div class="help-block with-errors"></div>
+            </div>
+          </div>
+
+          <div class="form-group row ">
+            <label for="inputLastName" class=" col-3 form-control-label mt-3 text-white"><b> Last name </b> </label>
+            <div class="col-8 mt-3">
+              <input type="text" name="LastName" class="form-control" id="inputLastName" pattern="[A-Za-z]{3,32}"  required>
+              <div class="help-block with-errors" ></div>
+            </div>
+          </div>
+
+          <div class="form-group row">
+            <label for="inputPhone" class="col-3 form-control-label mt-3 text-white"> <b> Phone number </b> </label>
+            <div class="col-8 mt-3">
+              <input type="tel" name="PhoneNumber" class="form-control" id="inputPhone" pattern="[0-9]{10}" required>
+              <div class="help-block with-errors"></div>
+            </div>
+          </div>
+
+          <div class="form-group row">
+            <label for="inputEmail" class="col-3 form-control-label mt-3 text-white"><b> Email address </b> </label>
+            <div class="col-8 mt-3">
+              <input type="email" name="EmailAddress" class="form-control" id="inputEmail" pattern="[^@\s]+@[^@\s]+\.[^@\s]+">
+              <div class="help-block with-errors"></div>
+            </div>
+          </div>
+
+          <div class="form-group row">
+            <label for="inputMenu"  class="col-3 form-control-label mt-3 text-white"> <b> Menu </b> </label>
+            <div class="col-8 mt-3">
+              <select class="form-control" name="Menu" id="inputMenu">
+                <option>CHILI PIZZA</option>
+                <option>CESAR</option>
+                <option>TURKISH GAMBIT PIZZA</option>
+                <option>BARBECUE PIZZA WITH BEEF</option>
+                <option>THAI PIZZA</option>
+                <option>VEGETARIAN</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-group row">
+            <label for="inputDrinks" class="col-3 form-control-label mt-3 text-white"> <b> What do you take from drinks? </b></label>
+            <div class="col-8 mt-3">
+              <select class="form-control" name="Drinks" id="inputDrinks">
+                <option>Sea buckthorn tea</option>
+                <option>Smoothie</option>
+                <option>Soft drinks</option>
+                <option>Juices</option>
+                <option>Сocktail</option>
+                <option>Water</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-group row">
+            <label for="inputMoney" class="col-3 form-control-label text-white"> <b> How are you going to pay? </b></label>
+            <div class="col-8 ">
+              <select class="form-control" name="Pay" id="inputMoney">
+                <option>In cash</option>
+                <option>By credit card</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-group row">
+            <label for="inputTime" class="col-3 col-form-label text-white"> <b> When do you want to receive your order?</b></label>
+            <div class="col-8">
+              <input class="form-control" name="Time" type="time"  min="09:00" max="23:59" id="inputTime">
+            </div>
+            <input type="submit" value="Order" style="background-color: #fff; color: #0fd1aa; margin: 15px 340px " class="btn btn-primary">
+          </div>
+
+        </form>
+      </div>
+    </div>
+</div>
+
+
+
+  </div>
+  </div>
+</div>
+
+
+<footer class="page-footer font-small unique-color-dark">
+  <div style="background-color: darkorange;">
+    <div class="container">
+      <div class="row py-4 d-flex align-items-center">
+        <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
+          <h6 class="mb-0"></h6>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container text-center text-md-left mt-5">
+    <div class="row mt-3">
+      <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+        <h6 class="text-uppercase font-weight-bold">MyPizza</h6>
+        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+        <br> <b> Working hours from 09:00 to 01:00 seven days a week </b></br>
+      </div>
+
+      <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+
+        <h6 class="text-uppercase font-weight-bold"> Сontacts </h6>
+        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+        <p>
+          <a href="#!">+996700616222</a>
+        </p>
+        <p>
+          <a href="#!">mypizza@gmail.com</a>
+        </p>
+        <p>
+          <a href="#!">ul.Ankara 4</a>
+        </p>
+        <p>
+          <a href="#!"> </a>
+        </p>
+      </div>
+
+      <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+        <h6 class="text-uppercase font-weight-bold"> Delivery Service </h6>
+        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+        <p>
+          <a href="#!">+996706001453</a>
+        </p>
+      </div>
+
+      <div class="social">
+        <h6 class="text-uppercase font-weight-bold"> WE ARE IN SOCIAL NETWORKS </h6>
+        <ul>
+          <br> <li><a href="https://www.facebook.com/monoshev.ramis/" target="_blank" class="facebook" rel="noreferrer noopener"> MyPizza in Facebook </a></li>
+          <li><a href="https://www.instagram.com/ramismonoshev/" target="_blank" class="instagram" rel="noreferrer noopener"> MyPizza in Instagram </a></li></br>
+        </ul>
+        <br> <div class="footer-copyright text-center py-3">© 2022 Copyright:
+        <a href="https://mdbootstrap.com/education/bootstrap/"> MyPizza </a>
+      </div> </br>
+      </div>
+    </div>
+  </div>
+</footer>
+<script>
+  if ( $('[type="time"]').prop('type') !== 'time' ) {
+    $('[type="time"]').datepicker();
+  }
+</script>
+</body>
+</html>
